@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <!--Web page head-->
+    <head>
+        <!--Webpage meta data-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Styling for webpage-->
+        <style>
+            #no-opacity {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+            img {
+                max-width: 100%;
+            }
+            /*Styling for hero image*/
+            .hero-image {
+                background-image: url("fireisland.webp");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                height: 300px;
+            }
+            /*styling for hero text*/
+            .hero-text {
+                color: black;
+                text-align: center;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                position: absolute;
+            }
+            h2, h3 {
+                text-align: center;
+            }
+            .gallery {
+                max-width: 400px;
+                height: auto;
+            }
+        </style>
+
+        <!--Webpage Title-->
+        <title>Adventures in Fire Island</title>
+    </head>
+
+    <!--Webpage body-->
+    <body>
+        <!--Header and Hero section for webpage-->
+        <header>
+            <div class="hero-image">
+                <!--Image tag used for assignment purposes-->
+                <img src="fireisland.webp" alt="drone view of fire island" id="no-opacity">
+                <div class="hero-text">
+                    <h1>Adventures in Fire Island</h1>
+                </div>
+            </div>
+        </header>
+
+        <!--Main page for blog-->
+        <main>
+            <!--Article(blog) for Adventures in Fire Island-->
+            <article>
+                <p>
+                My time in Fire Island was nothing short of breath taking. 
+                The park’s long beaches and cool breeze were beyond refreshing. 
+                Walking along the beach trails was just like a modest mental reset. 
+                The blissful natural aroma from the wet sand and the lobster-red sunsets gave a
+                 stark contrast from city life – ever busy, 
+                ever crowded, often discusting.
+                </p>
+                <!--Highlights section for bolg-->
+                <p>
+                     Highlist from my trip:
+                     <ul>
+                        <li>Wildlife: an abundance of birds of different types.</li>
+                        <li>Light and atmosphere: the sky was well lit, constant breezes and beatiful scenery.</li>
+                        <li>Nature trails: Trail provided a way to explore the environment without interfeering with its vegetation.</li>
+                    </ul>
+                </p>
+
+                <!--Section for image gallery-->
+        <section>
+            <h2>Gallery: Fire Island</h2>
+            <ul>
+                <li><img src="fireisland1.webp" alt="drone view of a house in fire island" class="gallery"></li>
+                <li><img src="fireisland2.jpg" alt="picture of a lighthouse in fire island" class="gallery"></li>
+                <li><img src="fireisland3.webp" alt="Rocky Mountains in a national park" class="gallery"></li>
+            </ul>
+        </section>
+
+                <!--Section for call to action-->
+                <section>
+                <h3>Explore the Adventure</h3>
+                <p>
+                Points to note: Pack water, hicking shoes and wind breaker for cool evenings. 
+                For anyone desiring an escape with stunning scenery, simple walking trails and captivating wildlife, 
+                Fire Island is the place to visit. <a href="https://www.nps.gov/fiis/index.htm">Plan your visit today</a>
+                </p>
+                </section>
+            </article>
+        </main>
+    </body>
+</html>
